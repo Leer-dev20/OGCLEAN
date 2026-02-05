@@ -105,4 +105,20 @@ class ProductCard extends HTMLElement {
     }
 }
 
+fetch('http://localhost/backend/api/products/')
+  .then(res => res.json())
+  .then(products => renderProducts(products));
+
+fetch('http://localhost/backend/api/orders/create.php', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    customer: 'Client OG',
+    phone: '770000000',
+    address: 'Dakar',
+    total,
+    cart
+  })
+});
+
 customElements.define('product-card', ProductCard);
