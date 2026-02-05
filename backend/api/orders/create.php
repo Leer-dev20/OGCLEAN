@@ -1,4 +1,5 @@
 <?php
+require "../utils/headers.php";
 require "../../config/database.php";
 
 $data = json_decode(file_get_contents("php://input"), true);
