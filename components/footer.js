@@ -25,8 +25,8 @@ class MainFooter extends HTMLElement {
                             <a href="#" onclick="showToast('Instagram')" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-secondary-600 hover:text-white transition-all">
                                 <i data-feather="instagram" class="w-5 h-5"></i>
                             </a>
-                            <a href="#" onclick="showToast('Twitter')" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-primary-400 hover:text-white transition-all">
-                                <i data-feather="twitter" class="w-5 h-5"></i>
+                            <a href="#" onclick="showToast('TikTok')" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-primary-400 hover:text-white transition-all">
+                                <i data-feather="tiktok" class="w-5 h-5"></i>
                             </a>
                         </div>
                     </div>
