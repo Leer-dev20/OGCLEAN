@@ -46,7 +46,7 @@ class CartDrawer extends HTMLElement {
                                     <img src="${item.image}" alt="${item.name}" class="w-20 h-20 object-cover rounded-lg">
                                     <div class="flex-1">
                                         <h4 class="font-semibold text-slate-900 text-sm line-clamp-2 mb-1">${item.name}</h4>
-                                        <p class="text-primary-600 font-bold">${item.price.toFixed(2)}€</p>
+                                        <p class="text-primary-600 font-bold">${item.price.toFixed(2)}FCFA</p>
                                         
                                         <div class="flex items-center gap-3 mt-2">
                                             <div class="flex items-center gap-2 bg-white rounded-lg border border-slate-200">
@@ -69,15 +69,15 @@ class CartDrawer extends HTMLElement {
                     <div class="border-t border-slate-100 p-6 bg-slate-50">
                         <div class="flex justify-between items-center mb-2 text-sm">
                             <span class="text-slate-600">Sous-total</span>
-                            <span class="font-medium">${total}€</span>
+                            <span class="font-medium">${total}FCFA</span>
                         </div>
                         <div class="flex justify-between items-center mb-4 text-sm">
                             <span class="text-slate-600">Livraison</span>
-                            <span class="text-green-600 font-medium">${parseFloat(total) > 50 ? 'Gratuite' : '3.90€'}</span>
+                            <span class="text-green-600 font-medium">${parseFloat(total) > 50 ? 'Gratuite' : '3.90FCFA'}</span>
                         </div>
                         <div class="flex justify-between items-center mb-6 text-lg font-bold">
                             <span class="text-slate-900">Total</span>
-                            <span class="text-primary-600">${parseFloat(total) > 50 ? total : (parseFloat(total) + 3.90).toFixed(2)}€</span>
+                            <span class="text-primary-600">${parseFloat(total) > 50 ? total : (parseFloat(total) + 3.90).toFixed(2)}FCFA</span>
                         </div>
                         
                         <button onclick="showToast('Redirection vers le paiement...')" class="w-full py-4 bg-primary-600 text-white font-bold rounded-full hover:bg-primary-700 transition-all transform hover:scale-[1.02] shadow-lg shadow-primary-500/30 flex items-center justify-center gap-2">
