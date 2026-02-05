@@ -59,7 +59,7 @@ class MainFooter extends HTMLElement {
                         <ul class="space-y-3">
                             <li class="flex items-center gap-3">
                                 <i data-feather="map-pin" class="w-5 h-5 text-primary-500"></i>
-                                <span>Cit Apix Tivaouane Peul, Dakar</span>
+                                <span>Cite Apix Tivaouane Peul, Dakar</span>
                             </li>
                             <li class="flex items-center gap-3">
                                 <i data-feather="phone" class="w-5 h-5 text-primary-500"></i>
