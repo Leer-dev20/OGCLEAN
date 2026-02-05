@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By OG CLEAN - Produits lessives & Corporels</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#ecfeff',
+                            100: '#cffafe',
+                            200: '#a5f3fc',
+                            300: '#67e8f9',
+                            400: '#22d3ee',
+                            500: '#06b6d4',
+                            600: '#0891b2',
+                            700: '#0e7490',
+                            800: '#155e75',
+                            900: '#164e63',
+                        },
+                        secondary: {
+                            50: '#fdf4ff',
+                            100: '#fae8ff',
+                            200: '#f5d0fe',
+                            300: '#f0abfc',
+                            400: '#e879f9',
+                            500: '#d946ef',
+                            600: '#c026d3',
+                            700: '#a21caf',
+                            800: '#86198f',
+                            900: '#701a75',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+    <main-nav></main-nav>
+    
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-50 via-white to-secondary-50 pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <div class="absolute inset-0 opacity-30">
+            <div class="absolute -top-24 -right-24 w-96 h-96 bg-primary-200 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
+            <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-secondary-200 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
+        </div>
+        
+        <div class="relative max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-white shadow-sm border border-primary-100 text-primary-700 text-sm font-medium">
+                    <i data-feather="sparkles" class="w-4 h-4 mr-2"></i>
+                    Nouvelle Collection Éco-Responsable
+                </div>
+                <h1 class="text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
+                    Propreté <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-600">Éclatante</span> & Naturelle
+                </h1>
+                <p class="text-xl text-slate-600 leading-relaxed max-w-lg">
+                    Découvrez notre sélection premium de lessives douces et gels douche hydratants. Des formules respectueuses de votre peau et de l'environnement.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#products" class="inline-flex items-center justify-center px-8 py-4 bg-primary-600 text-white font-semibold rounded-full hover:bg-primary-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-primary-500/30">
+                        Découvrir les produits
+                        <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                    </a>
+                    <a href="#categories" class="inline-flex items-center justify-center px-8 py-4 bg-white text-slate-700 font-semibold rounded-full hover:bg-slate-50 transition-all border-2 border-slate-200">
+                        Nos catégories
+                    </a>
+                </div>
+                
+                <div class="flex items-center gap-8 pt-4 text-sm text-slate-600">
+                    <div class="flex items-center gap-2">
+                        <i data-feather="check-circle" class="w-5 h-5 text-primary-600"></i>
+                        <span>100% Vegan</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-feather="check-circle" class="w-5 h-5 text-primary-600"></i>
+                        <span>Sans Parabènes</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-feather="check-circle" class="w-5 h-5 text-primary-600"></i>
+                        <span>Eco-Friendly</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="relative">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
+                    <img src="img/lessives.jpeg.jfif" alt="Produits cosmétiques premium" class="w-full h-auto object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                </div>
+                <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-3 animate-float">
+                    <div class="w-12 h-12 bg-secondary-100 rounded-full flex items-center justify-center text-secondary-600">
+                        <i data-feather="heart" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold text-slate-900">98% Satisfaits</p>
+                        <p class="text-sm text-slate-500">Avis clients vérifiés</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Nos Univers</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">Des solutions adaptées pour chaque besoin, du linge délicat à votre peau sensible.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="group relative overflow-hidden rounded-3xl cursor-pointer" onclick="filterCategory('detergent')">
+                    <img src="img/Lessives2.jfif" alt="Lessives" class="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary-900/90 via-primary-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <h3 class="text-3xl font-bold text-white mb-2">Lessives & Entretien</h3>
+                        <p class="text-primary-100 mb-4">Des formules concentrées et douces pour vos textiles</p>
+                        <span class="inline-flex items-center text-white font-medium group-hover:translate-x-2 transition-transform">
+                            Explorer <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="group relative overflow-hidden rounded-3xl cursor-pointer" onclick="filterCategory('shower')">
+                    <img src="img/bain2.jfif" alt="Gels Douche" class="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-secondary-900/90 via-secondary-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <h3 class="text-3xl font-bold text-white mb-2">Gels Douche & Soins</h3>
+                        <p class="text-secondary-100 mb-4">Hydratation et fraîcheur au quotidien</p>
+                        <span class="inline-flex items-center text-white font-medium group-hover:translate-x-2 transition-transform">
+                            Explorer <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-12 gap-4">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-2">Nos Best-Sellers</h2>
+                    <p class="text-slate-600">Les préférés de nos clients cette saison</p>
+                </div>
+                
+                <div class="flex gap-2 bg-white p-1 rounded-full shadow-sm border border-slate-200">
+                    <button onclick="filterCategory('all')" class="filter-btn active px-6 py-2 rounded-full text-sm font-medium transition-all bg-primary-600 text-white" data-filter="all">
+                        Tous
+                    </button>
+                    <button onclick="filterCategory('detergent')" class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all text-slate-600 hover:bg-slate-100" data-filter="detergent">
+                        Lessives
+                    </button>
+                    <button onclick="filterCategory('shower')" class="filter-btn px-6 py-2 rounded-full text-sm font-medium transition-all text-slate-600 hover:bg-slate-100" data-filter="shower">
+                        Gels Douche
+                    </button>
+                </div>
+            </div>
+            
+            <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Products will be injected here by JavaScript -->
+            </div>
+            
+            <div class="mt-12 text-center">
+                <button onclick="loadMoreProducts()" class="inline-flex items-center px-8 py-3 border-2 border-primary-600 text-primary-600 font-semibold rounded-full hover:bg-primary-600 hover:text-white transition-all">
+                    Voir plus de produits
+                    <i data-feather="chevron-down" class="ml-2 w-4 h-4"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-8 rounded-2xl bg-primary-50 hover:bg-primary-100 transition-colors">
+                    <div class="w-16 h-16 bg-primary-600 rounded-2xl flex items-center justify-center text-white mx-auto mb-6 transform rotate-3">
+                        <i data-feather="truck" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Livraison Gratuite</h3>
+                    <p class="text-slate-600">Pour toute commande supérieure à 2 produits sur toute la région de Dakar</p>
+                </div>
+                
+                <div class="text-center p-8 rounded-2xl bg-secondary-50 hover:bg-secondary-100 transition-colors">
+                    <div class="w-16 h-16 bg-secondary-600 rounded-2xl flex items-center justify-center text-white mx-auto mb-6 transform -rotate-3">
+                        <i data-feather="leaf" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">100% Naturel</h3>
+                    <p class="text-slate-600">Des ingrédients bio et respectueux de l'environnement</p>
+                </div>
+                
+                <div class="text-center p-8 rounded-2xl bg-amber-50 hover:bg-amber-100 transition-colors">
+                    <div class="w-16 h-16 bg-amber-500 rounded-2xl flex items-center justify-center text-white mx-auto mb-6 transform rotate-3">
+                        <i data-feather="shield" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Satisfaction Garantie</h3>
+                    <p class="text-slate-600">30 jours pour tester et retourner si insatisfait</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Rejoignez la Communauté BY OG CLEAN</h2>
+            <p class="text-slate-400 mb-8 text-lg">Recevez nos offres exclusives et conseils bien-être directement dans votre boîte mail.</p>
+            
+            <form class="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto" onsubmit="handleNewsletter(event)">
+                <input type="email" placeholder="Votre adresse email" required 
+                    class="flex-1 px-6 py-4 rounded-full bg-white/10 border border-white/20 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                <button type="submit" class="px-8 py-4 bg-primary-600 text-white font-semibold rounded-full hover:bg-primary-700 transition-all transform hover:scale-105">
+                    S'inscrire
+                </button>
+            </form>
+            
+            <p class="text-sm text-slate-500 mt-4">En vous inscrivant, vous acceptez notre politique de confidentialité.</p>
+        </div>
+    </section>
+
+    <main-footer></main-footer>
+    <cart-drawer></cart-drawer>
+    <toast-notification></toast-notification>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/product-card.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/cart-drawer.js"></script>
+    <script src="components/toast.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
