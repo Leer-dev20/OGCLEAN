@@ -296,6 +296,12 @@ function handleSearch(e) {
     }
 }
 
+window.open(
+ `https://wa.me/221780175011?text=Commande OG Clean #%23${orderId}`,
+ '_blank'
+);
+
+
 // Export functions for global access
 window.addToCart = addToCart;
 window.removeFromCart = removeFromCart;
